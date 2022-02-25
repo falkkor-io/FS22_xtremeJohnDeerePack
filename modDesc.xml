@@ -104,9 +104,6 @@ Changelog:
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true" />
     <storeItems>
-        <storeItem xmlFilename="vehicles/xuv865M-X.xml" />
-        <storeItem xmlFilename="vehicles/x9_1100-X.xml" />
-        <storeItem xmlFilename="vehicles/t560-X.xml" />
         <storeItem xmlFilename="vehicles/series9RX-X.xml" />
         <storeItem xmlFilename="vehicles/series9RT-X.xml" />
         <storeItem xmlFilename="vehicles/series9R-X.xml" />
@@ -117,11 +114,14 @@ Changelog:
         <storeItem xmlFilename="vehicles/series7R-X.xml" />
         <storeItem xmlFilename="vehicles/series6R-X.xml" />
         <storeItem xmlFilename="vehicles/series6M-X.xml" />
+        <storeItem xmlFilename="vehicles/xuv865M-X.xml" />
+        <storeItem xmlFilename="vehicles/x9_1100-X.xml" />
+        <storeItem xmlFilename="vehicles/t560-X.xml" />
+        <storeItem xmlFilename="vehicles/cp690-X.xml" />
         <storeItem xmlFilename="vehicles/headerHD50F-X.xml" />
         <storeItem xmlFilename="vehicles/headerHD45X-X.xml" />
         <storeItem xmlFilename="vehicles/headerC16F-X.xml" />
         <storeItem xmlFilename="vehicles/header625X-X.xml" />
         <storeItem xmlFilename="vehicles/header608C-X.xml" />
-        <storeItem xmlFilename="vehicles/cp690-X.xml" />
     </storeItems>
 </modDesc>
