@@ -3,11 +3,11 @@
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
 
     <storeData>
-        <name>CP690</name>
+        <name>CP690-X</name>
         <specs>
             <workingWidth>6</workingWidth>
             <power>590</power>
-            <maxSpeed>25</maxSpeed>
+            <maxSpeed>50</maxSpeed>
         </specs>
         <functions>
             <function>$l10n_function_combine</function>
@@ -33,7 +33,7 @@
         <filename>$data/vehicles/johnDeere/cp690/cp690.i3d</filename>
         <sounds filename="$data/vehicles/johnDeere/cp690/sounds/cp690.xml"/>
         <size width="7" length="12.7" height="4.7" lengthOffset="-1.8" widthOffset="-0.25"/>
-        <speedLimit value="10" />
+        <speedLimit value="25" />
         <components>
             <component centerOfMass="0 1.1 0.6" solverIterationCount="25" mass="13130"/>
             <component solverIterationCount="20" mass="11700"/>

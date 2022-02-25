@@ -3,10 +3,10 @@
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
 
     <storeData>
-        <name>X9 1100</name>
+        <name>X9 1100-X</name>
         <specs>
             <power>690</power>
-            <maxSpeed>40</maxSpeed>
+            <maxSpeed>50</maxSpeed>
             <combination xmlFilename="$data/vehicles/johnDeere/headerHD45X/headerHD45X.xml"/>
             <combination xmlFilename="$data/vehicles/johnDeere/headerHD50F/headerHD50F.xml"/>
             <combination xmlFilename="$data/vehicles/johnDeere/headerC16F/headerC16F.xml"/>

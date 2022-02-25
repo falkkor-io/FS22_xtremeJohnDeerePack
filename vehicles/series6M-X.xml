@@ -3,10 +3,10 @@
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
 
     <storeData>
-        <name>6M Series</name>
+        <name>6M-X</name>
         <specs>
             <power>130</power>
-            <maxSpeed>40</maxSpeed>
+            <maxSpeed>75</maxSpeed>
             <combination xmlFilename="$data/vehicles/johnDeere/frontloader603R/frontloader603R.xml" />
         </specs>
         <functions>

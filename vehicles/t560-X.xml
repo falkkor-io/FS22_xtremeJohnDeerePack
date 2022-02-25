@@ -3,10 +3,10 @@
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
 
     <storeData>
-        <name>T560</name>
+        <name>T560-X</name>
         <specs>
             <power>387</power>
-            <maxSpeed>40</maxSpeed>
+            <maxSpeed>50</maxSpeed>
             <combination xmlFilename="$data/vehicles/johnDeere/header625X/header625X.xml"/>
             <combination xmlFilename="$data/vehicles/johnDeere/header608C/header608C.xml"/>
             <combination xmlFilename="$data/vehicles/capello/diamant8/diamant8.xml"/>

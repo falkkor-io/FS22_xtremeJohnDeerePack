@@ -3,7 +3,7 @@
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
 
     <storeData>
-        <name>C16F</name>
+        <name>C16F-X</name>
         <specs>
             <workingWidth>12.0</workingWidth>
             <combination xmlFilename="$data/vehicles/johnDeere/x9_1100/x9_1100.xml"/>
@@ -32,7 +32,7 @@
         <typeDesc>$l10n_typeDesc_cutter</typeDesc>
         <filename>$data/vehicles/johnDeere/headerC16F/headerC16F.i3d</filename>
         <size width="7.5" length="4"/>
-        <speedLimit value="10"/>
+        <speedLimit value="25"/>
         <components>
             <component solverIterationCount="10" mass="5000"/>
         </components>

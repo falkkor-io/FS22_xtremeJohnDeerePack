@@ -3,7 +3,7 @@
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
 
     <storeData>
-        <name>625X</name>
+        <name>625X-X</name>
         <specs>
             <workingWidth>7.6</workingWidth>
             <combination xmlFilename="$data/vehicles/johnDeere/t560/t560.xml" />
@@ -31,7 +31,7 @@
         <typeDesc>$l10n_typeDesc_cutter</typeDesc>
         <filename>$data/vehicles/johnDeere/header625X/header625X.i3d</filename>
         <size width="9.5" length="4" />
-        <speedLimit value="10" />
+        <speedLimit value="25" />
         <components>
             <component centerOfMass="0 0.2 -0.2" solverIterationCount="10" mass="2500" />
         </components>

@@ -3,10 +3,10 @@
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
 
     <storeData>
-        <name>8RX Series</name>
+        <name>8RX-X</name>
         <specs>
             <power>357</power>
-            <maxSpeed>40</maxSpeed>
+            <maxSpeed>75</maxSpeed>
         </specs>
         <functions>
             <function>$l10n_function_tractor</function>

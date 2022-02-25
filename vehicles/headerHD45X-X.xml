@@ -3,7 +3,7 @@
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
 
     <storeData>
-        <name>HD45X</name>
+        <name>HD45X-X</name>
         <specs>
             <workingWidth>13.7</workingWidth>
             <combination xmlFilename="$data/vehicles/johnDeere/x9_1100/x9_1100.xml"/>
@@ -31,7 +31,7 @@
         <typeDesc>$l10n_typeDesc_cutter</typeDesc>
         <filename>$data/vehicles/johnDeere/headerHD45X/headerHD45X.i3d</filename>
         <size width="16" length="4" lengthOffset="-0.1" />
-        <speedLimit value="10" />
+        <speedLimit value="25" />
         <components>
             <component centerOfMass="0 0.2 -0.2" solverIterationCount="10" mass="4300" />
         </components>
