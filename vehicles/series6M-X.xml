@@ -5,7 +5,7 @@
     <storeData>
         <name>6M-X</name>
         <specs>
-            <power>130</power>
+            <power>250</power>
             <maxSpeed>75</maxSpeed>
             <combination xmlFilename="$data/vehicles/johnDeere/frontloader603R/frontloader603R.xml" />
         </specs>
@@ -17,7 +17,7 @@
             <storePack>STARTER_FORAGE</storePack>
         </storePacks>
         <image>$data/vehicles/johnDeere/series6M/store_series6M.png</image>
-        <price>109500</price>
+        <price>225000</price>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
         <brand>JOHNDEERE</brand>
@@ -811,8 +811,8 @@
         </differentialConfigurations>
 
         <motorConfigurations>
-            <motorConfiguration name="6110M" hp="130" price="0">
-                <motor torqueScale="0.55" minRpm="850" maxRpm="2200" maxForwardSpeed="43" maxBackwardSpeed="22" brakeForce="5" lowBrakeForceScale="0.2" dampingRateScale="0.7">
+            <motorConfiguration name="6120M-X" hp="250" price="0">
+                <motor torqueScale="1.055" minRpm="850" maxRpm="2200" accelerationLimit="4" maxForwardSpeed="75" maxBackwardSpeed="22" brakeForce="5" lowBrakeForceScale="0.2" dampingRateScale="0.7">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
@@ -822,7 +822,7 @@
                 </motor>
 
                 <!-- CommandQuad™ PLUS Transmission (40km/h) 24/24 - speeds at 2100rpm -->
-                <transmission autoGearChangeTime="0" gearChangeTime="0" axleRatio="0.95" name="$l10n_info_transmission_manualWithPowerShiftGroups">
+                <transmission autoGearChangeTime="0" gearChangeTime="0" axleRatio="0.55" name="$l10n_info_transmission_manualWithPowerShiftGroups">
                     <directionChange useGear="false" useGroup="false" changeTime="0.25"/>
                     <groups type="DEFAULT" changeTime="0.5">
                         <group ratio="0.565" />
@@ -831,19 +831,14 @@
                         <group ratio="1.000" />
                     </groups>
 
-                    <forwardGear maxSpeed="3.68" name="A" reverseName="-A" />
-                    <forwardGear maxSpeed="6.6" name="B" reverseName="-B" />
-                    <forwardGear maxSpeed="10.8" name="C" reverseName="-C" />
-                    <forwardGear maxSpeed="17.7" name="D" reverseName="-D" />
-                    <forwardGear maxSpeed="28.8" name="E" reverseName="-E" />
-                    <forwardGear maxSpeed="38.9" name="F" reverseName="-F" />
+                    <forwardGear maxSpeed="6.68" name="A" reverseName="-A" />
+                    <forwardGear maxSpeed="12.6" name="B" reverseName="-B" />
+                    <forwardGear maxSpeed="20.8" name="C" reverseName="-C" />
+                    <forwardGear maxSpeed="30.7" name="D" reverseName="-D" />
+                    <forwardGear maxSpeed="50.8" name="E" reverseName="-E" />
+                    <forwardGear maxSpeed="75.9" name="F" reverseName="-F" />
                 </transmission>
 
-                <objectChange node="motorConfiguration_decal_6110" visibilityActive="true"/>
-                <objectChange node="motorConfiguration_decal_6120" visibilityActive="false"/>
-            </motorConfiguration>
-            <motorConfiguration name="6120M" hp="140" price="5000">
-                <motor torqueScale="0.593"/>
                 <objectChange node="motorConfiguration_decal_6110" visibilityActive="false"/>
                 <objectChange node="motorConfiguration_decal_6120" visibilityActive="true"/>
             </motorConfiguration>

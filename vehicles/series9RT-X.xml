@@ -5,14 +5,14 @@
     <storeData>
         <name>9RT-X</name>
         <specs>
-            <power>517</power>
+            <power>825</power>
             <maxSpeed>75</maxSpeed>
         </specs>
         <functions>
             <function>$l10n_function_tractor</function>
         </functions>
         <image>$data/vehicles/johnDeere/series9RT/store_series9RT.png</image>
-        <price>387500</price>
+        <price>550000</price>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
         <brand>JOHNDEERE</brand>
@@ -420,8 +420,8 @@
         </animationNodes>
 
         <motorConfigurations>
-            <motorConfiguration name="9470 RT" hp="517" price="0" consumerConfigurationIndex="1">
-                <motor torqueScale="2.183" minRpm="900" maxRpm="2200" maxForwardSpeed="40" maxBackwardSpeed="20" brakeForce="15" lowBrakeForceScale="0.3" dampingRateScale="2.4">
+            <motorConfiguration name="9570 RT-X" hp="825" price="0" consumerConfigurationIndex="1">
+                <motor torqueScale="3.48" minRpm="900" maxRpm="2200" accelerationLimit="4" maxForwardSpeed="75" maxBackwardSpeed="20" brakeForce="15" lowBrakeForceScale="0.3" dampingRateScale="2.4">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
@@ -431,7 +431,7 @@
                 </motor>
 
                 <!-- e18 transmission - speeds at 2100rpm -->
-                <transmission autoGearChangeTime="0" gearChangeTime="0" axleRatio="0.965" name="$l10n_info_transmission_powerShift">
+                <transmission autoGearChangeTime="0" gearChangeTime="0" axleRatio="0.55" name="$l10n_info_transmission_powerShift">
                     <directionChange useGear="true" reverseGearIndex="1" changeTime="0.5"/>
 
                     <forwardGear maxSpeed="4.1" actionName="SHIFT_GEAR_SELECT_1"/>
@@ -447,14 +447,14 @@
                     <forwardGear maxSpeed="11.5" actionName="-"/>
 
                     <forwardGear maxSpeed="12.8" actionName="SHIFT_GEAR_SELECT_4"/>
-                    <forwardGear maxSpeed="14.2" actionName="-"/>
-                    <forwardGear maxSpeed="15.7" actionName="-"/>
-                    <forwardGear maxSpeed="17.5" actionName="SHIFT_GEAR_SELECT_5"/>
-                    <forwardGear maxSpeed="21.6" actionName="-"/>
+                    <forwardGear maxSpeed="15.2" actionName="-"/>
+                    <forwardGear maxSpeed="20.7" actionName="-"/>
+                    <forwardGear maxSpeed="25.5" actionName="SHIFT_GEAR_SELECT_5"/>
+                    <forwardGear maxSpeed="30.6" actionName="-"/>
 
-                    <forwardGear maxSpeed="26.6" actionName="SHIFT_GEAR_SELECT_6"/>
-                    <forwardGear maxSpeed="32.6" actionName="SHIFT_GEAR_SELECT_7"/>
-                    <forwardGear maxSpeed="40.2" actionName="SHIFT_GEAR_SELECT_8"/>
+                    <forwardGear maxSpeed="40.6" actionName="SHIFT_GEAR_SELECT_6"/>
+                    <forwardGear maxSpeed="60.6" actionName="SHIFT_GEAR_SELECT_7"/>
+                    <forwardGear maxSpeed="75.2" actionName="SHIFT_GEAR_SELECT_8"/>
 
                     <backwardGear maxSpeed="4.1" />
                     <backwardGear maxSpeed="5.6" />
@@ -464,16 +464,6 @@
                     <backwardGear maxSpeed="12.8" />
                 </transmission>
 
-                <objectChange node="engineConfig9470_decal" visibilityActive="true" visibilityInactive="false"/>
-            </motorConfiguration>
-
-            <motorConfiguration name="9520 RT" hp="572" price="27500" consumerConfigurationIndex="2">
-                <motor torqueScale="2.415" dampingRateScale="2.6"/>
-                <objectChange node="engineConfig9520_decal" visibilityActive="true" visibilityInactive="false"/>
-            </motorConfiguration>
-
-            <motorConfiguration name="9570 RT" hp="628" price="55500" consumerConfigurationIndex="3">
-                <motor torqueScale="2.651" dampingRateScale="2.9"/>
                 <objectChange node="engineConfig9570_decal" visibilityActive="true" visibilityInactive="false"/>
             </motorConfiguration>
         </motorConfigurations>

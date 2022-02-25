@@ -6,14 +6,14 @@
         <name>CP690-X</name>
         <specs>
             <workingWidth>6</workingWidth>
-            <power>590</power>
+            <power>825</power>
             <maxSpeed>50</maxSpeed>
         </specs>
         <functions>
             <function>$l10n_function_combine</function>
         </functions>
         <image>$data/vehicles/johnDeere/cp690/store_cp690.png</image>
-        <price>847000</price>
+        <price>950000</price>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
         <brand>JOHNDEERE</brand>
@@ -221,8 +221,8 @@
         </differentialConfigurations>
 
         <motorConfigurations>
-            <motorConfiguration name="CP690" hp="590" price="0">
-                <motor torqueScale="2.49" minRpm="850" maxRpm="2200" minSpeed="0.01" maxForwardSpeed="27" maxBackwardSpeed="12" brakeForce="15" lowBrakeForceScale="0.22" accelerationLimit="1.6" dampingRateScale="2.5">
+            <motorConfiguration name="CP690-X" hp="825" price="0">
+                <motor torqueScale="3.48" minRpm="850" maxRpm="2200" minSpeed="0.01" accelerationLimit="4" maxForwardSpeed="50" maxBackwardSpeed="12" brakeForce="15" lowBrakeForceScale="0.22" accelerationLimit="1.6" dampingRateScale="2.5">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
@@ -230,7 +230,7 @@
                     <torque normRpm="0.86" torque="0.88"/>
                     <torque normRpm="1" torque="0.72"/>
                 </motor>
-                <transmission minForwardGearRatio="30.5" maxForwardGearRatio="290" minBackwardGearRatio="66" maxBackwardGearRatio="290" name="$l10n_info_transmission_cvt"/>
+                <transmission minForwardGearRatio="13.5" maxForwardGearRatio="290" minBackwardGearRatio="66" maxBackwardGearRatio="290" name="$l10n_info_transmission_cvt"/>
             </motorConfiguration>
         </motorConfigurations>
 

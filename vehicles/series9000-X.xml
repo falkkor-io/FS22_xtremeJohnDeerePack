@@ -401,7 +401,7 @@
 
         <motorConfigurations>
             <motorConfiguration name="9700" hp="770" price="0">
-                <motor torqueScale="3.845" minRpm="850" maxRpm="1860" maxForwardSpeed="41" maxBackwardSpeed="14.9" brakeForce="12" lowBrakeForceScale="0.22" ptoMotorRpmRatio="2.97" dampingRateScale="8" accelerationLimit="1.8" >
+                <motor torqueScale="3.845" minRpm="850" maxRpm="1860" accelerationLimit="4" maxForwardSpeed="75" maxBackwardSpeed="14.9" brakeForce="12" lowBrakeForceScale="0.22" ptoMotorRpmRatio="2.97" dampingRateScale="8" accelerationLimit="1.8" >
                     <torque normRpm="0.45" torque="0.8"/>
                     <torque normRpm="0.5" torque="0.87"/>
                     <torque normRpm="0.59" torque="0.9"/>

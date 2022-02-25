@@ -5,14 +5,14 @@
     <storeData>
         <name>8RX-X</name>
         <specs>
-            <power>357</power>
+            <power>625</power>
             <maxSpeed>75</maxSpeed>
         </specs>
         <functions>
             <function>$l10n_function_tractor</function>
         </functions>
         <image>$data/vehicles/johnDeere/series8RX/store_series8RX.png</image>
-        <price>351000</price>
+        <price>500000</price>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
         <brand>JOHNDEERE</brand>
@@ -683,8 +683,8 @@
         </animationNodes>
 
         <motorConfigurations>
-            <motorConfiguration name="8RX 310" hp="357" price="0" consumerConfigurationIndex="1">
-                <motor torqueScale="1.507" minRpm="900" maxRpm="2200" maxForwardSpeed="42" maxBackwardSpeed="20" brakeForce="3.5" lowBrakeForceScale="0.33" dampingRateScale="0.25">
+            <motorConfiguration name="8RX 410-X" hp="625" price="0" consumerConfigurationIndex="1">
+                <motor torqueScale="2.637" minRpm="900" maxRpm="2200" accelerationLimit="4" maxForwardSpeed="75" maxBackwardSpeed="20" brakeForce="3.5" lowBrakeForceScale="0.33" dampingRateScale="0.25">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
@@ -692,72 +692,8 @@
                     <torque normRpm="0.86" torque="0.88"/>
                     <torque normRpm="1" torque="0.72"/>
                 </motor>
-                <transmission minForwardGearRatio="17" maxForwardGearRatio="310" minBackwardGearRatio="32" maxBackwardGearRatio="310" name="$l10n_info_transmission_cvt"/>
-                <objectChange node="engineConfig310_decal" visibilityActive="true" visibilityInactive="false" />
-            </motorConfiguration>
-
-            <motorConfiguration name="8RX 340" hp="388" price="15500" consumerConfigurationIndex="2">
-                <motor torqueScale="1.638" dampingRateScale="0.25"/>
-                <transmission minForwardGearRatio="17" maxForwardGearRatio="310" minBackwardGearRatio="32" maxBackwardGearRatio="310" name="$l10n_info_transmission_cvt"/>
-                <objectChange node="engineConfig340_decal" visibilityActive="true" visibilityInactive="false" />
-            </motorConfiguration>
-
-            <motorConfiguration name="8RX 370" hp="420" price="31500" consumerConfigurationIndex="3">
-                <motor torqueScale="1.773" dampingRateScale="0.25"/>
-                <transmission minForwardGearRatio="17" maxForwardGearRatio="310" minBackwardGearRatio="32" maxBackwardGearRatio="310" name="$l10n_info_transmission_cvt"/>
-                <objectChange node="engineConfig370_decal" visibilityActive="true" visibilityInactive="false" />
-            </motorConfiguration>
-
-            <motorConfiguration name="8RX 410" hp="458" price="50500" consumerConfigurationIndex="4">
-                <motor torqueScale="1.934" dampingRateScale="0.25"/>
-
-                <!-- e23 transmission - speeds at 2100rpm -->
-                <transmission autoGearChangeTime="0" gearChangeTime="0" axleRatio="0.97" name="$l10n_info_transmission_powerShift">
-                    <directionChange useGear="true" reverseGearIndex="1" changeTime="0.5"/>
-
-                    <forwardGear maxSpeed="2.4" actionName="SHIFT_GEAR_SELECT_1"/>
-                    <forwardGear maxSpeed="2.7" actionName="-"/>
-                    <forwardGear maxSpeed="3.2" actionName="-"/>
-                    <forwardGear maxSpeed="3.7" actionName="-"/>
-                    <forwardGear maxSpeed="4.3" actionName="SHIFT_GEAR_SELECT_2"/>
-                    <forwardGear maxSpeed="5.0" actionName="-"/>
-                    <forwardGear maxSpeed="5.6" actionName="-"/>
-                    <forwardGear maxSpeed="6.6" actionName="SHIFT_GEAR_SELECT_3"/>
-                    <forwardGear maxSpeed="7.6" actionName="-"/>
-                    <forwardGear maxSpeed="8.7" actionName="-"/>
-                    <forwardGear maxSpeed="10.0" actionName="-"/>
-                    <forwardGear maxSpeed="11.4" actionName="SHIFT_GEAR_SELECT_4"/>
-                    <forwardGear maxSpeed="13.4" actionName="-"/>
-                    <forwardGear maxSpeed="15.1" actionName="-"/>
-                    <forwardGear maxSpeed="17.5" actionName="-"/>
-                    <forwardGear maxSpeed="20.4" actionName="SHIFT_GEAR_SELECT_5"/>
-                    <forwardGear maxSpeed="23.7" actionName="-"/>
-                    <forwardGear maxSpeed="27.2" actionName="-"/>
-                    <forwardGear maxSpeed="31.4" actionName="SHIFT_GEAR_SELECT_6"/>
-                    <forwardGear maxSpeed="36.2" actionName="-"/>
-                    <forwardGear maxSpeed="41.8" actionName="SHIFT_GEAR_SELECT_7"/>
-                    <forwardGear maxSpeed="47.8" actionName="-"/>
-                    <forwardGear maxSpeed="55.0" actionName="SHIFT_GEAR_SELECT_8"/>
-
-                    <backwardGear maxSpeed="2.3" actionName="SHIFT_GEAR_SELECT_1"/>
-                    <backwardGear maxSpeed="3.1" actionName="-"/>
-                    <backwardGear maxSpeed="4.0" actionName="SHIFT_GEAR_SELECT_2"/>
-                    <backwardGear maxSpeed="5.3" actionName="-"/>
-                    <backwardGear maxSpeed="6.1" actionName="SHIFT_GEAR_SELECT_3"/>
-                    <backwardGear maxSpeed="8.0" actionName="-"/>
-                    <backwardGear maxSpeed="10.8" actionName="SHIFT_GEAR_SELECT_4"/>
-                    <backwardGear maxSpeed="14.2" actionName="-"/>
-                    <backwardGear maxSpeed="19.1" actionName="SHIFT_GEAR_SELECT_5"/>
-                    <backwardGear maxSpeed="25.4" actionName="-"/>
-                    <backwardGear maxSpeed="29.9" actionName="SHIFT_GEAR_SELECT_6"/>
-                </transmission>
-
+                <transmission minForwardGearRatio="9.3" maxForwardGearRatio="310" minBackwardGearRatio="32" maxBackwardGearRatio="310" name="$l10n_info_transmission_cvt"/>
                 <objectChange node="engineConfig410_decal" visibilityActive="true" visibilityInactive="false" />
-
-                <objectChange node="e23Configuration" visibilityActive="true" visibilityInactive="false"/>
-                <objectChange node="commandProConfiguration" visibilityActive="false" visibilityInactive="true"/>
-
-                <objectChange node="playerRightHandTarget" translationActive="-0.36 0.24 0.26" rotationActive="197 103 221"/>
             </motorConfiguration>
         </motorConfigurations>
 

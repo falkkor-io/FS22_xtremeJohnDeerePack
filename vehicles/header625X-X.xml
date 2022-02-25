@@ -6,14 +6,14 @@
         <name>625X-X</name>
         <specs>
             <workingWidth>7.6</workingWidth>
-            <combination xmlFilename="$data/vehicles/johnDeere/t560/t560.xml" />
+            <combination xmlFilename="vehicles/t560-X.xml" />
             <combination xmlFilename="$data/vehicles/nardi/n40bx/n40bx.xml" />
         </specs>
         <functions>
             <function>$l10n_function_cutter</function>
         </functions>
         <image>$data/vehicles/johnDeere/header625X/store_header625X.png</image>
-        <price>43000</price>
+        <price>50000</price>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
         <brand>JOHNDEERE</brand>

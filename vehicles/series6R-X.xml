@@ -5,7 +5,7 @@
     <storeData>
         <name>6R-X</name>
         <specs>
-            <power>280</power>
+            <power>375</power>
             <maxSpeed>75</maxSpeed>
             <combination xmlFilename="$data/vehicles/johnDeere/frontloader643R/frontloader643R.xml" />
         </specs>
@@ -17,7 +17,7 @@
             <storePack>STARTER_WOOD</storePack>
         </storePacks>
         <image>$data/vehicles/johnDeere/series6R/store_series6R.png</image>
-        <price>233500</price>
+        <price>325000</price>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
         <brand>JOHNDEERE</brand>
@@ -1105,8 +1105,8 @@
         </differentialConfigurations>
 
         <motorConfigurations>
-            <motorConfiguration name="6230 R" hp="280" price="0">
-                <motor torqueScale="1.183" minRpm="900" maxRpm="2200" maxForwardSpeed="53" maxBackwardSpeed="22" brakeForce="11" lowBrakeForceScale="0.2" dampingRateScale="1.7">
+            <motorConfiguration name="6250 R-X" hp="375" price="0">
+                <motor torqueScale="1.582" minRpm="900" maxRpm="2200" accelerationLimit="4" maxForwardSpeed="75" maxBackwardSpeed="22" brakeForce="11" lowBrakeForceScale="0.2" dampingRateScale="1.7">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
@@ -1114,16 +1114,10 @@
                     <torque normRpm="0.86" torque="0.88"/>
                     <torque normRpm="1" torque="0.72"/>
                 </motor>
-                <transmission minForwardGearRatio="12.3" maxForwardGearRatio="300" minBackwardGearRatio="32" maxBackwardGearRatio="300" name="$l10n_info_transmission_cvt"/>
-                <objectChange node="config_6230R" visibilityActive="true" visibilityInactive="false"/>
-                <objectChange node="config_6250R" visibilityActive="false" visibilityInactive="true"/>
-            </motorConfiguration>
-            <motorConfiguration name="6250 R" hp="300" price="10000">
-                <motor torqueScale="1.268" dampingRateScale="1.75"/>
+                <transmission minForwardGearRatio="9.25" maxForwardGearRatio="300" minBackwardGearRatio="32" maxBackwardGearRatio="300" name="$l10n_info_transmission_cvt"/>
                 <objectChange node="config_6230R" visibilityActive="false" visibilityInactive="true"/>
                 <objectChange node="config_6250R" visibilityActive="true" visibilityInactive="false"/>
             </motorConfiguration>
-
         </motorConfigurations>
 
         <exhaustEffects>

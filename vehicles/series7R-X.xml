@@ -5,7 +5,7 @@
     <storeData>
         <name>7R-X</name>
         <specs>
-            <power>305</power>
+            <power>450</power>
             <maxSpeed>75</maxSpeed>
             <combination xmlFilename="$data/vehicles/johnDeere/laforgeEZ/laforgeEZ.xml" />
         </specs>
@@ -13,7 +13,7 @@
             <function>$l10n_function_tractor</function>
         </functions>
         <image>$data/vehicles/johnDeere/series7R/store_series7R.png</image>
-        <price>247500</price>
+        <price>400000</price>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
         <brand>JOHNDEERE</brand>
@@ -1470,8 +1470,8 @@
         </differentialConfigurations>
 
         <motorConfigurations>
-            <motorConfiguration name="7R 270" hp="305" price="0" consumerConfigurationIndex="1">
-                <motor torqueScale="1.288" minRpm="900" maxRpm="2200" maxForwardSpeed="53" maxBackwardSpeed="22" brakeForce="13" lowBrakeForceScale="0.22" dampingRateScale="2.1">
+            <motorConfiguration name="7R 350-X" hp="450" price="0" consumerConfigurationIndex="1">
+                <motor torqueScale="1.898" minRpm="900" maxRpm="2200" accelerationLimit="4" maxForwardSpeed="75" maxBackwardSpeed="22" brakeForce="13" lowBrakeForceScale="0.22" dampingRateScale="2.1">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
@@ -1479,25 +1479,7 @@
                     <torque normRpm="0.86" torque="0.88"/>
                     <torque normRpm="1" torque="0.72"/>
                 </motor>
-                <transmission minForwardGearRatio="12.3" maxForwardGearRatio="330" minBackwardGearRatio="32" maxBackwardGearRatio="330" name="$l10n_info_transmission_cvt"/>
-                <objectChange node="engineConfig_decal_250" visibilityActive="false" visibilityInactive="false"/>
-                <objectChange node="engineConfig_decal_270" visibilityActive="true" visibilityInactive="false"/>
-            </motorConfiguration>
-
-            <motorConfiguration name="7R 290" hp="332" price="13500" consumerConfigurationIndex="2">
-                <motor torqueScale="1.402" dampingRateScale="2.2" />
-                <objectChange node="engineConfig_decal_290" visibilityActive="true" visibilityInactive="false"/>
-            </motorConfiguration>
-            <motorConfiguration name="7R 310" hp="352" price="23500" consumerConfigurationIndex="3">
-                <motor torqueScale="1.487" dampingRateScale="2.3" />
-                <objectChange node="engineConfig_decal_310" visibilityActive="true" visibilityInactive="false"/>
-            </motorConfiguration>
-            <motorConfiguration name="7R 330" hp="373" price="34000" consumerConfigurationIndex="4">
-                <motor torqueScale="1.575" dampingRateScale="2.5" />
-                <objectChange node="engineConfig_decal_330" visibilityActive="true" visibilityInactive="false"/>
-            </motorConfiguration>
-            <motorConfiguration name="7R 350" hp="388" price="41500" consumerConfigurationIndex="5">
-                <motor torqueScale="1.638" dampingRateScale="2.6" />
+                <transmission minForwardGearRatio="9.3" maxForwardGearRatio="330" minBackwardGearRatio="32" maxBackwardGearRatio="330" name="$l10n_info_transmission_cvt"/>
                 <objectChange node="engineConfig_decal_350" visibilityActive="true" visibilityInactive="false"/>
             </motorConfiguration>
         </motorConfigurations>

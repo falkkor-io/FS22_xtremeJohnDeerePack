@@ -6,13 +6,13 @@
         <name>C16F-X</name>
         <specs>
             <workingWidth>12.0</workingWidth>
-            <combination xmlFilename="$data/vehicles/johnDeere/x9_1100/x9_1100.xml"/>
+            <combination xmlFilename="vehicles/x9_1100-X.xml"/>
         </specs>
         <functions>
             <function>$l10n_function_cutter</function>
         </functions>
         <image>$data/vehicles/johnDeere/headerC16F/store_headerC16F.png</image>
-        <price>127000</price>
+        <price>150000</price>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
         <brand>JOHNDEERE</brand>

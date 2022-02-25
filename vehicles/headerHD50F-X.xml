@@ -6,14 +6,14 @@
         <name>HD50F-X</name>
         <specs>
             <workingWidth>15.2</workingWidth>
-            <combination xmlFilename="$data/vehicles/johnDeere/x9_1100/x9_1100.xml"/>
+            <combination xmlFilename="vehicles/x9_1100-X.xml"/>
             <combination xmlFilename="$data/vehicles/nardi/n60_45/n60_45.xml" />
         </specs>
         <functions>
             <function>$l10n_function_cutter</function>
         </functions>
         <image>$data/vehicles/johnDeere/headerHD50F/store_headerHD50F.png</image>
-        <price>99500</price>
+        <price>125000</price>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
         <brand>JOHNDEERE</brand>

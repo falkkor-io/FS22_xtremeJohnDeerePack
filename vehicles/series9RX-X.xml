@@ -12,7 +12,7 @@
             <function>$l10n_function_tractor</function>
         </functions>
         <image>$data/vehicles/johnDeere/series9RX/store_series9RX.png</image>
-        <price>428500</price>
+        <price>600000</price>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
         <brand>JOHNDEERE</brand>
@@ -409,8 +409,8 @@
         </animationNodes>
 
         <motorConfigurations>
-            <motorConfiguration name="9470 RX" hp="517" price="0" consumerConfigurationIndex="1">
-                <motor torqueScale="2.183" minRpm="900" maxRpm="2200" maxForwardSpeed="40" maxBackwardSpeed="20" brakeForce="5" lowBrakeForceScale="0.33" dampingRateScale="0.9">
+            <motorConfiguration name="9620 RX-X" hp="925" price="0" consumerConfigurationIndex="1">
+                <motor torqueScale="3.902" minRpm="900" maxRpm="2200" accelerationLimit="4" maxForwardSpeed="75" maxBackwardSpeed="20" brakeForce="5" lowBrakeForceScale="0.33" dampingRateScale="0.9">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
@@ -420,7 +420,7 @@
                 </motor>
 
                 <!-- e18 transmission - speeds at 2100rpm -->
-                <transmission autoGearChangeTime="0" gearChangeTime="0" axleRatio="0.965" name="$l10n_info_transmission_powerShift">
+                <transmission autoGearChangeTime="0" gearChangeTime="0" axleRatio="0.55" name="$l10n_info_transmission_powerShift">
                     <directionChange useGear="true" reverseGearIndex="1" changeTime="0.5"/>
 
                     <forwardGear maxSpeed="4.1" actionName="SHIFT_GEAR_SELECT_1"/>
@@ -436,14 +436,14 @@
                     <forwardGear maxSpeed="11.5" actionName="-"/>
 
                     <forwardGear maxSpeed="12.8" actionName="SHIFT_GEAR_SELECT_4"/>
-                    <forwardGear maxSpeed="14.2" actionName="-"/>
-                    <forwardGear maxSpeed="15.7" actionName="-"/>
-                    <forwardGear maxSpeed="17.5" actionName="SHIFT_GEAR_SELECT_5"/>
-                    <forwardGear maxSpeed="21.6" actionName="-"/>
+                    <forwardGear maxSpeed="20.2" actionName="-"/>
+                    <forwardGear maxSpeed="25.7" actionName="-"/>
+                    <forwardGear maxSpeed="30.5" actionName="SHIFT_GEAR_SELECT_5"/>
+                    <forwardGear maxSpeed="45.6" actionName="-"/>
 
-                    <forwardGear maxSpeed="26.6" actionName="SHIFT_GEAR_SELECT_6"/>
-                    <forwardGear maxSpeed="32.6" actionName="SHIFT_GEAR_SELECT_7"/>
-                    <forwardGear maxSpeed="40.2" actionName="SHIFT_GEAR_SELECT_8"/>
+                    <forwardGear maxSpeed="55.6" actionName="SHIFT_GEAR_SELECT_6"/>
+                    <forwardGear maxSpeed="65.6" actionName="SHIFT_GEAR_SELECT_7"/>
+                    <forwardGear maxSpeed="75.2" actionName="SHIFT_GEAR_SELECT_8"/>
 
                     <backwardGear maxSpeed="4.1" />
                     <backwardGear maxSpeed="5.6" />
@@ -452,23 +452,6 @@
                     <backwardGear maxSpeed="9.4" />
                     <backwardGear maxSpeed="12.8" />
                 </transmission>
-
-                <objectChange node="engineConfig420_decal" visibilityActive="false" visibilityInactive="false" />
-                <objectChange node="engineConfig470_decal" visibilityActive="true" visibilityInactive="false" />
-            </motorConfiguration>
-
-            <motorConfiguration name="9520 RX" hp="572" price="27500" consumerConfigurationIndex="2">
-                <motor torqueScale="2.415" lowBrakeForceScale="0.335" dampingRateScale="1"/>
-                <objectChange node="engineConfig520_decal" visibilityActive="true" visibilityInactive="false" />
-            </motorConfiguration>
-
-            <motorConfiguration name="9570 RX" hp="627" price="55000" consumerConfigurationIndex="3">
-                <motor torqueScale="2.647" lowBrakeForceScale="0.34" dampingRateScale="1.1"/>
-                <objectChange node="engineConfig570_decal" visibilityActive="true" visibilityInactive="false" />
-            </motorConfiguration>
-
-            <motorConfiguration name="9620 RX" hp="670" price="76500" consumerConfigurationIndex="4">
-                <motor torqueScale="2.828" lowBrakeForceScale="0.4" dampingRateScale="1.3"/>
                 <objectChange node="engineConfig620_decal" visibilityActive="true" visibilityInactive="false" />
             </motorConfiguration>
         </motorConfigurations>

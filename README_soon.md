@@ -12,6 +12,12 @@ All store items in this mod feature:
     - Realistic Power/Torque Curves, Gear Ratios and Speeds
     - Highest Quality 3D Models from GIANTS Software
 
+XUV865M-X: 
+    - 100 HP / 75 KW
+    - 316 LB-FT / 428 NM
+    - 46 MPH / 75 KPH
+    - $50,000 USD
+
 6M-X: 
     - 250 HP / 186 KW - 1.055
     - 1070 LB-FT / 1451 NM
@@ -46,25 +52,45 @@ All store items in this mod feature:
     - 625 HP / 466 KW - 2.637
     - 3624 LB-FT / 2673 NM
     - 46 MPH / 75 KPH 
-    - $475,000 USD
+    - $500,000 USD
 
 9R-X: 
     - 825 HP / 615 KW - 3.48
     - 2602 LB-FT / 3528 NM
     - 46 MPH / 75 KPH 
-    - $450,000 USD
+    - $525,000 USD
 
 9RT-X: 
     - 825 HP / 615 KW
     - 2602 LB-FT / 3528 NM
     - 46 MPH / 75 KPH 
-    - $475,000 USD
+    - $550,000 USD
 
 9RX-X: 
     - 925 HP / 690 KW - 3.902
     - 2658 LB-FT / 3605 NM
     - 46 MPH / 75 KPH 
-    - $475,000 USD
+    - $600,000 USD
+
+CP690-X: 
+    - 825 HP / 615 KW
+    - 2602 LB-FT / 3528 NM
+    - 31 MPH / 50 KPH 
+    - $950,000 USD
+
+T560-X: 
+    - 525 HP / 392 KW
+    - 1657 LB-FT / 2246 NM
+    - 31 MPH / 50 KPH 
+    - 20,000 L Capacity
+    - $325,000 USD
+
+X9 1100-X: 
+    - 825 HP / 615 KW
+    - 2602 LB-FT / 3528 NM
+    - 31 MPH / 50 KPH 
+    - 35,000 L Capacity
+    - $650,000 USD
 ```
 
 ```

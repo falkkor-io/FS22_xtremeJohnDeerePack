@@ -5,14 +5,14 @@
     <storeData>
         <name>XUV865M-X</name>
         <specs>
-            <power>23</power>
+            <power>100</power>
             <maxSpeed>75</maxSpeed>
         </specs>
         <functions>
             <function>$l10n_function_car</function>
         </functions>
         <image>$data/vehicles/johnDeere/xuv865M/store_xuv865M.png</image>
-        <price>26000</price>
+        <price>50000</price>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
         <brand>JOHNDEERE</brand>
@@ -269,8 +269,8 @@
         </differentialConfigurations>
 
         <motorConfigurations>
-            <motorConfiguration name="XUV865M" hp="23" price="0">
-                <motor torqueScale="0.1" minRpm="850" maxRpm="2200" maxForwardSpeed="53" maxBackwardSpeed="22" brakeForce="0.4" lowBrakeForceScale="0.15" dampingRateScale="0.2">
+            <motorConfiguration name="XUV865M" hp="100" price="0">
+                <motor torqueScale="0.420" minRpm="850" maxRpm="2200" accelerationLimit="4" maxForwardSpeed="75" maxBackwardSpeed="22" brakeForce="0.4" lowBrakeForceScale="0.15" dampingRateScale="0.2">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
@@ -278,7 +278,7 @@
                     <torque normRpm="0.86" torque="0.88"/>
                     <torque normRpm="1" torque="0.72"/>
                 </motor>
-                <transmission minForwardGearRatio="15.5" maxForwardGearRatio="290" minBackwardGearRatio="37.2" maxBackwardGearRatio="290" name="$l10n_info_transmission_cvt"/>
+                <transmission minForwardGearRatio="9.03" maxForwardGearRatio="290" minBackwardGearRatio="37.2" maxBackwardGearRatio="290" name="$l10n_info_transmission_cvt"/>
             </motorConfiguration>
         </motorConfigurations>
 
@@ -429,7 +429,7 @@
         <fillUnitConfigurations>
             <fillUnitConfiguration>
                 <fillUnits>
-                    <fillUnit unitTextOverride="$l10n_unit_literShort" fillTypeCategories="bulk" capacity="460" fillAnimation="backDoorAnim" fillAnimationLoadTime="0">
+                    <fillUnit unitTextOverride="$l10n_unit_literShort" fillTypeCategories="bulk" capacity="900" fillAnimation="backDoorAnim" fillAnimationLoadTime="0">
                         <exactFillRootNode node="exactFillRootNode"/>
                     </fillUnit>
                     <fillUnit unitTextOverride="$l10n_unit_literShort" showOnHud="false" showInShop="false" fillTypes="diesel" capacity="42" />
