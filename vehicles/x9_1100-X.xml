@@ -309,7 +309,7 @@
 
         <motorConfigurations>
             <motorConfiguration name="X9 1100" hp="825">
-                <motor torqueScale="3.48" minRpm="1200" maxRpm="2200" minSpeed="0.01" accelerationLimit="4" maxForwardSpeed="50" maxBackwardSpeed="12" brakeForce="6" lowBrakeForceScale="0.22" accelerationLimit="1.7" dampingRateScale="2.9">
+                <motor torqueScale="3.48" minRpm="1200" maxRpm="2200" minSpeed="0.01" accelerationLimit="4" maxForwardSpeed="50" maxBackwardSpeed="12" brakeForce="6" lowBrakeForceScale="0.22" dampingRateScale="2.9">
                     <torque normRpm="0.45" torque="0.9"/>
                     <torque normRpm="0.5" torque="0.97"/>
                     <torque normRpm="0.59" torque="1"/>
