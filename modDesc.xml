@@ -13,6 +13,25 @@
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true" />
     <storeItems>
-        <storeItem xmlFilename="vehicles/value" />
+        <storeItem xmlFilename="vehicles/xuv865M.xml" />
+        <storeItem xmlFilename="vehicles/x9_1100.xml" />
+        <storeItem xmlFilename="vehicles/t560.xml" />
+        <storeItem xmlFilename="vehicles/series9RX.xml" />
+        <storeItem xmlFilename="vehicles/series9RT.xml" />
+        <storeItem xmlFilename="vehicles/series9R.xml" />
+        <storeItem xmlFilename="vehicles/series9000.xml" />
+        <storeItem xmlFilename="vehicles/series8RX.xml" />
+        <storeItem xmlFilename="vehicles/series8RT.xml" />
+        <storeItem xmlFilename="vehicles/series8R.xml" />
+        <storeItem xmlFilename="vehicles/series7R.xml" />
+        <storeItem xmlFilename="vehicles/series6R.xml" />
+        <storeItem xmlFilename="vehicles/series6M.xml" />
+        <storeItem xmlFilename="vehicles/headerHD50F.xml" />
+        <storeItem xmlFilename="vehicles/headerHD45X.xml" />
+        <storeItem xmlFilename="vehicles/headerC16F.xml" />
+        <storeItem xmlFilename="vehicles/header639.xml" />
+        <storeItem xmlFilename="vehicles/header625X.xml" />
+        <storeItem xmlFilename="vehicles/header608C.xml" />
+        <storeItem xmlFilename="vehicles/cp690.xml" />
     </storeItems>
 </modDesc>

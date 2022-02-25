@@ -12,57 +12,57 @@ All store items in this mod feature:
     - Realistic Power/Torque Curves, Gear Ratios and Speeds
     - Highest Quality 3D Models from GIANTS Software
 
-6MX: 
-    - 250 HP / VALUE KW
-    - VALUE LB-FT / VALUE NM
-    - 46 MPH / 75 KPH 
+6M-X: 
+    - 250 HP / 186 KW - 1.055
+    - 1070 LB-FT / 1451 NM
+    - 46 MPH / 75 KPH - 9.25
     - $225,000 USD
 
-6RX: 
-    - 375 HP / VALUE KW
-    - VALUE LB-FT / VALUE NM
+6R-X: 
+    - 375 HP / 280 KW - 1.582
+    - 1183 LB-FT / 1604 NM
     - 46 MPH / 75 KPH 
     - $325,000 USD
 
-7RX: 
-    - 450 HP / VALUE KW
-    - VALUE LB-FT / VALUE NM
+7R-X: 
+    - 450 HP / 336 KW - 1.898
+    - 1277 LB-FT / 1732 NM
     - 46 MPH / 75 KPH 
     - $400,000 USD
 
-8RX: 
-    - 525 HP / VALUE KW
-    - VALUE LB-FT / VALUE NM
+8R-X: 
+    - 525 HP / 392 KW - 2.215
+    - 1657 LB-FT / 2246 NM
     - 46 MPH / 75 KPH 
     - $450,000 USD
 
-8RTX: 
-    - 525 HP / VALUE KW
-    - VALUE LB-FT / VALUE NM
+8RT-X: 
+    - 525 HP / 392 KW
+    - 1657 LB-FT / 2246 NM
     - 46 MPH / 75 KPH 
     - $475,000 USD
 
-8RXX: 
-    - 525 HP / VALUE KW
-    - VALUE LB-FT / VALUE NM
+8RX-X: 
+    - 625 HP / 466 KW - 2.637
+    - 3624 LB-FT / 2673 NM
     - 46 MPH / 75 KPH 
     - $475,000 USD
 
-9RX: 
-    - 825 HP / VALUE KW
-    - VALUE LB-FT / VALUE NM
+9R-X: 
+    - 825 HP / 615 KW - 3.48
+    - 2602 LB-FT / 3528 NM
     - 46 MPH / 75 KPH 
     - $450,000 USD
 
-9RTX: 
-    - 825 HP / VALUE KW
-    - VALUE LB-FT / VALUE NM
+9RT-X: 
+    - 825 HP / 615 KW
+    - 2602 LB-FT / 3528 NM
     - 46 MPH / 75 KPH 
     - $475,000 USD
 
-9RXX: 
-    - 825 HP / VALUE KW
-    - VALUE LB-FT / VALUE NM
+9RX-X: 
+    - 925 HP / 690 KW - 3.902
+    - 2658 LB-FT / 3605 NM
     - 46 MPH / 75 KPH 
     - $475,000 USD
 ```
