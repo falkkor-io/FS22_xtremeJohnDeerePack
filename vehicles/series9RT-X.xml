@@ -465,6 +465,8 @@
                 </transmission>
 
                 <objectChange node="engineConfig9570_decal" visibilityActive="true" visibilityInactive="false"/>
+                <objectChange node="engineConfig9520_decal" visibilityActive="false" visibilityInactive="false"/>
+                <objectChange node="engineConfig9470_decal" visibilityActive="false" visibilityInactive="false"/>
             </motorConfiguration>
         </motorConfigurations>
 

@@ -453,6 +453,10 @@
                     <backwardGear maxSpeed="12.8" />
                 </transmission>
                 <objectChange node="engineConfig620_decal" visibilityActive="true" visibilityInactive="false" />
+                <objectChange node="engineConfig570_decal" visibilityActive="false" visibilityInactive="false"/>
+                <objectChange node="engineConfig520_decal" visibilityActive="false" visibilityInactive="false"/>
+                <objectChange node="engineConfig470_decal" visibilityActive="false" visibilityInactive="false"/>
+                <objectChange node="engineConfig420_decal" visibilityActive="false" visibilityInactive="false"/>
             </motorConfiguration>
         </motorConfigurations>
 

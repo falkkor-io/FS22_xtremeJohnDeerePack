@@ -5,7 +5,7 @@
     <storeData>
         <name>9000-X</name>
         <specs>
-            <power>770</power>
+            <power>900</power>
             <maxSpeed>75</maxSpeed>
             <combination xmlFilename="$data/vehicles/kemper/plus345/plus345_johnDeere.xml"/>
             <combination xmlFilename="$data/vehicles/kemper/plus360/plus360_johnDeere.xml"/>
@@ -19,7 +19,7 @@
             <function>$l10n_function_combineNeedsForageCutter</function>
         </functions>
         <image>$data/vehicles/johnDeere/series9000/store_series9000.png</image>
-        <price>449500</price>
+        <price>475000</price>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
         <brand>JOHNDEERE</brand>
@@ -400,8 +400,8 @@
         </differentialConfigurations>
 
         <motorConfigurations>
-            <motorConfiguration name="9700" hp="770" price="0">
-                <motor torqueScale="3.845" minRpm="850" maxRpm="1860" accelerationLimit="4" maxForwardSpeed="75" maxBackwardSpeed="14.9" brakeForce="12" lowBrakeForceScale="0.22" ptoMotorRpmRatio="2.97" dampingRateScale="8" accelerationLimit="1.8" >
+            <motorConfiguration name="9900-X" hp="900" price="0">
+                <motor torqueScale="3.845" minRpm="850" maxRpm="1860" accelerationLimit="4" maxForwardSpeed="75" maxBackwardSpeed="14.9" brakeForce="12" lowBrakeForceScale="0.22" ptoMotorRpmRatio="2.97" dampingRateScale="8" >
                     <torque normRpm="0.45" torque="0.8"/>
                     <torque normRpm="0.5" torque="0.87"/>
                     <torque normRpm="0.59" torque="0.9"/>
@@ -410,18 +410,6 @@
                     <torque normRpm="1" torque="0.72"/>
                 </motor>
                 <transmission minForwardGearRatio="11.05" maxForwardGearRatio="300" minBackwardGearRatio="40" maxBackwardGearRatio="300" name="$l10n_info_transmission_cvt"/>
-                <objectChange node="decal9700" visibilityActive="true"/>
-                <objectChange node="decal9800" visibilityActive="false"/>
-                <objectChange node="decal9900" visibilityActive="false"/>
-            </motorConfiguration>
-            <motorConfiguration name="9800" hp="870" price="31500">
-                <motor torqueScale="4.343" dampingRateScale="8.8"/>
-                <objectChange node="decal9700" visibilityActive="false"/>
-                <objectChange node="decal9800" visibilityActive="true"/>
-                <objectChange node="decal9900" visibilityActive="false"/>
-            </motorConfiguration>
-            <motorConfiguration name="9900" hp="970" price="63000">
-                <motor torqueScale="4.842" dampingRateScale="9.6"/>
                 <objectChange node="decal9700" visibilityActive="false"/>
                 <objectChange node="decal9800" visibilityActive="false"/>
                 <objectChange node="decal9900" visibilityActive="true"/>
