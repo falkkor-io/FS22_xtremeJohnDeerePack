@@ -96,9 +96,11 @@ X9 1100-X:
 ```
 Changelog:
     - v1.1.0.0
+        - GIANTS Patch 1.3 Updates
         - Fixed 9000-Series Loading Errors
         - Fixed 9-Series Decal Errors
-        - Increased Power and Speed
+        - Fixed 8-Series Decal Errors
+        - Fixed 7-Series Log Errors
     - v1.0.0.0 
         - Initial public release
         - GitHub Release

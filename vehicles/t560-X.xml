@@ -13,7 +13,7 @@
             <combination xmlFilename="vehicles/headerHD50F-X.xml"/>
             <combination xmlFilename="vehicles/headerC16F-X.xml"/>
             <combination xmlFilename="vehicles/helianthus12000X.xml"/>
-            <combination xmlFilename="vehicles/diamant12X.xml"/>            
+            <combination xmlFilename="vehicles/diamant12X.xml"/>   
         </specs>
         <functions>
             <function>$l10n_function_combine</function>
@@ -28,11 +28,12 @@
         <shopFoldingState>1</shopFoldingState>
         <shopTranslationOffset>0 0.145 0</shopTranslationOffset>
         <shopRotationOffset>0.788 0 0</shopRotationOffset>
-        <vertexBufferMemoryUsage>6482144</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>1587906</indexBufferMemoryUsage>
-        <textureMemoryUsage>6160672</textureMemoryUsage>
+        <vertexBufferMemoryUsage>6496256</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>1606400</indexBufferMemoryUsage>
+        <textureMemoryUsage>6881280</textureMemoryUsage>
         <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
         <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <audioMemoryUsage>330450</audioMemoryUsage>
     </storeData>
 
     <base>
@@ -92,19 +93,19 @@
             <wheelConfiguration name="$l10n_configuration_valueCrawler" price="20000" brand="TRELLEBORG" saveId="TRELLEBORG_CRAWLER">
                 <wheels autoRotateBackSpeed="2.2" differentialIndex="2" ackermannSteeringIndex="2">
                     <wheel hasTireTracks="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" rotSpeed="1"  restLoad="1.8" repr="crawlerLeftBackWheel" driveNode="crawlerLeftBackWheelDriveNode"   radius="0.39" width="0.7" mass="0.2" frictionScale="2" tireType="crawler" initialCompression="22" suspTravel="0.2" spring="34" damper="30" maxWheelSink="0.125" brakeFactor="0.3"/>
+                        <physics tipOcclusionAreaGroupId="1" rotSpeed="1"  restLoad="1.8" repr="crawlerLeftBackWheel" driveNode="crawlerLeftBackWheelDriveNode"   radius="0.39" width="0.7" mass="0.2" frictionScale="2" tireType="crawler" initialCompression="22" suspTravel="0.2" spring="34" damper="30" supportsWheelSink="false" brakeFactor="0.3"/>
                         <tire tireTrackAtlasIndex="7" isCareWheel="false"/>
                     </wheel>
                     <wheel>
-                        <physics tipOcclusionAreaGroupId="1" rotSpeed="1"  restLoad="1.0" repr="crawlerLeftFrontWheel"                                            radius="0.35" width="0.7" mass="0.2" frictionScale="2" tireType="crawler" initialCompression="30" suspTravel="0.2" spring="34" damper="30" maxWheelSink="0.125" brakeFactor="0.3"/>
+                        <physics tipOcclusionAreaGroupId="1" rotSpeed="1"  restLoad="1.0" repr="crawlerLeftFrontWheel"                                            radius="0.35" width="0.7" mass="0.2" frictionScale="2" tireType="crawler" initialCompression="30" suspTravel="0.2" spring="34" damper="30" supportsWheelSink="false" brakeFactor="0.3"/>
                         <tire isCareWheel="false" />
                     </wheel>
                     <wheel hasTireTracks="true" hasParticles="true">
-                        <physics tipOcclusionAreaGroupId="1" rotSpeed="1"  restLoad="1.8" repr="crawlerRightBackWheel" driveNode="crawlerRightBackWheelDriveNode" radius="0.39" width="0.7" mass="0.2" frictionScale="2" tireType="crawler" initialCompression="22" suspTravel="0.2" spring="34" damper="30" maxWheelSink="0.125" brakeFactor="0.3"/>
+                        <physics tipOcclusionAreaGroupId="1" rotSpeed="1"  restLoad="1.8" repr="crawlerRightBackWheel" driveNode="crawlerRightBackWheelDriveNode" radius="0.39" width="0.7" mass="0.2" frictionScale="2" tireType="crawler" initialCompression="22" suspTravel="0.2" spring="34" damper="30" supportsWheelSink="false" brakeFactor="0.3"/>
                         <tire tireTrackAtlasIndex="7" isCareWheel="false"/>
                     </wheel>
                     <wheel>
-                        <physics tipOcclusionAreaGroupId="1" rotSpeed="1"  restLoad="1.0" repr="crawlerRightFrontWheel"                                           radius="0.35" width="0.7" mass="0.2" frictionScale="2" tireType="crawler" initialCompression="30" suspTravel="0.2" spring="34" damper="30" maxWheelSink="0.125" brakeFactor="0.3"/>
+                        <physics tipOcclusionAreaGroupId="1" rotSpeed="1"  restLoad="1.0" repr="crawlerRightFrontWheel"                                           radius="0.35" width="0.7" mass="0.2" frictionScale="2" tireType="crawler" initialCompression="30" suspTravel="0.2" spring="34" damper="30" supportsWheelSink="false" brakeFactor="0.3"/>
                         <tire isCareWheel="false" />
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/trelleborg/TM800/600_65R28.xml" isLeft="true" hasTireTracks="true" hasParticles="true">
@@ -186,10 +187,10 @@
 
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="BKT" saveId="BKT_DEFAULT">
                 <wheels baseConfig="TRELLEBORG_DEFAULT">
-                    <wheel filename="$data/shared/wheels/tires/vredestein/traxionHarvest/650_75R32.xml">
+                    <wheel filename="$data/shared/wheels/tires/bkt/agrimaxTeris/650_75R32.xml">
                         <physics restLoad="2.3"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/tires/vredestein/traxionHarvest/650_75R32.xml">
+                    <wheel filename="$data/shared/wheels/tires/bkt/agrimaxTeris/650_75R32.xml">
                         <physics restLoad="2.3"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/bkt/agrimaxVFlecto/540_65R28.xml">
@@ -203,10 +204,10 @@
 
             <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="2250" brand="BKT" saveId="BKT_BROAD">
                 <wheels baseConfig="TRELLEBORG_DEFAULT">
-                    <wheel filename="$data/shared/wheels/tires/vredestein/traxionHarvest/800_65R32.xml">
+                    <wheel filename="$data/shared/wheels/tires/bkt/agrimaxTeris/800_65R32.xml">
                         <physics restLoad="2.3" yOffset="0.012"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/tires/vredestein/traxionHarvest/800_65R32.xml">
+                    <wheel filename="$data/shared/wheels/tires/bkt/agrimaxTeris/800_65R32.xml">
                         <physics restLoad="2.3" yOffset="0.012"/>
                     </wheel>
                     <wheel filename="$data/shared/wheels/tires/bkt/agrimaxVFlecto/600_60R28.xml">
@@ -244,35 +245,31 @@
 
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" brand="VREDESTEIN" saveId="VREDESTEIN_DEFAULT">
                 <wheels baseConfig="TRELLEBORG_DEFAULT">
-                    <wheel filename="$data/shared/wheels/tires/bkt/agrimaxTeris/650_75R32.xml">
+                    <wheel filename="$data/shared/wheels/tires/vredestein/traxionHarvest/650_75R32.xml">
                         <physics restLoad="2.3"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/tires/bkt/agrimaxTeris/650_75R32.xml">
+                    <wheel filename="$data/shared/wheels/tires/vredestein/traxionHarvest/650_75R32.xml">
                         <physics restLoad="2.3"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/tires/bkt/agrimaxVFlecto/540_65R28.xml">
-                        <physics restLoad="5.2" suspTravel="0.12" spring="79" yOffset="0.014"/>
+                    <wheel filename="$data/shared/wheels/tires/vredestein/traxion65/540_65R28.xml">
+                        <physics restLoad="5.2" suspTravel="0.12" spring="79" yOffset="0.008"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/tires/bkt/agrimaxVFlecto/540_65R28.xml">
-                        <physics restLoad="5.2" suspTravel="0.12" spring="79" yOffset="0.014"/>
+                    <wheel filename="$data/shared/wheels/tires/vredestein/traxion65/540_65R28.xml">
+                        <physics restLoad="5.2" suspTravel="0.12" spring="79" yOffset="0.008"/>
                     </wheel>
                 </wheels>
             </wheelConfiguration>
 
             <wheelConfiguration name="$l10n_configuration_valueWheelBroad" price="2250" brand="VREDESTEIN" saveId="VREDESTEIN_BROAD">
                 <wheels baseConfig="VREDESTEIN_DEFAULT">
-                    <wheel filename="$data/shared/wheels/tires/bkt/agrimaxTeris/800_65R32.xml">
+                    <wheel filename="$data/shared/wheels/tires/vredestein/traxionHarvest/800_65R32.xml">
                         <physics yOffset="0.012"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/tires/bkt/agrimaxTeris/800_65R32.xml">
+                    <wheel filename="$data/shared/wheels/tires/vredestein/traxionHarvest/800_65R32.xml">
                         <physics yOffset="0.012"/>
                     </wheel>
-                    <wheel filename="$data/shared/wheels/tires/vredestein/traxionXXL/600_65R28.xml">
-                        <physics yOffset="0.054"/>
-                    </wheel>
-                    <wheel filename="$data/shared/wheels/tires/vredestein/traxionXXL/600_65R28.xml">
-                        <physics yOffset="0.054"/>
-                    </wheel>
+                    <wheel/>
+                    <wheel/>
                 </wheels>
                 <foliageBendingModifier index="1" minX="-1.8" maxX="1.8"/>
             </wheelConfiguration>
@@ -577,7 +574,7 @@
         <fillUnitConfigurations>
             <fillUnitConfiguration>
                 <fillUnits>
-                    <fillUnit unitTextOverride="$l10n_unit_literShort" fillTypeCategories="combine" capacity="20000" foldMinLimit="0" foldMaxLimit="0">
+                    <fillUnit unitTextOverride="$l10n_unit_literShort" fillTypeCategories="combine" capacity="25000" foldMinLimit="0" foldMaxLimit="0">
                         <exactFillRootNode node="exactFillRootNode"/>
                         <alarmTriggers>
                             <alarmTrigger minFillLevel="1" maxFillLevel="1" turnOffInTrigger="true"/>

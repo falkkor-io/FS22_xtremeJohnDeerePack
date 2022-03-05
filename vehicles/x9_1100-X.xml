@@ -11,14 +11,14 @@
             <combination xmlFilename="vehicles/headerHD50F-X.xml"/>
             <combination xmlFilename="vehicles/headerC16F-X.xml"/>
             <combination xmlFilename="vehicles/helianthus12000X.xml"/>
-            <combination xmlFilename="vehicles/diamant12X.xml"/>            
+            <combination xmlFilename="vehicles/diamant12X.xml"/>
         </specs>
         <functions>
             <function>$l10n_function_combine</function>
             <function>$l10n_function_combineNeedsCutter</function>
         </functions>
         <image>$data/vehicles/johnDeere/x9_1100/store_x9_1100.png</image>
-        <price>550000</price>
+        <price>650000</price>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
         <brand>JOHNDEERE</brand>
@@ -26,11 +26,12 @@
         <shopFoldingState>1</shopFoldingState>
         <shopTranslationOffset>0 -0.123 0</shopTranslationOffset>
         <shopRotationOffset>-0.127 0 0</shopRotationOffset>
-        <vertexBufferMemoryUsage>9705496</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>1544460</indexBufferMemoryUsage>
-        <textureMemoryUsage>6226136</textureMemoryUsage>
+        <vertexBufferMemoryUsage>9736704</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>1581568</indexBufferMemoryUsage>
+        <textureMemoryUsage>6946816</textureMemoryUsage>
         <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
         <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <audioMemoryUsage>330450</audioMemoryUsage>
     </storeData>
 
     <base>

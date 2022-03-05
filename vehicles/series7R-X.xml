@@ -20,11 +20,12 @@
         <category>tractorsL</category>
         <shopTranslationOffset>0 0.053 0</shopTranslationOffset>
         <shopRotationOffset>-0.287 0 0</shopRotationOffset>
-        <vertexBufferMemoryUsage>8247004</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>1422786</indexBufferMemoryUsage>
-        <textureMemoryUsage>6480096</textureMemoryUsage>
+        <vertexBufferMemoryUsage>8268800</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>1449984</indexBufferMemoryUsage>
+        <textureMemoryUsage>7405568</textureMemoryUsage>
         <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
         <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <audioMemoryUsage>451621</audioMemoryUsage>
     </storeData>
 
     <base>
@@ -1481,6 +1482,10 @@
                 </motor>
                 <transmission minForwardGearRatio="9.3" maxForwardGearRatio="330" minBackwardGearRatio="32" maxBackwardGearRatio="330" name="$l10n_info_transmission_cvt"/>
                 <objectChange node="engineConfig_decal_350" visibilityActive="true" visibilityInactive="false"/>
+                <objectChange node="engineConfig_decal_250" visibilityActive="false" visibilityInactive="false"/>
+                <objectChange node="engineConfig_decal_270" visibilityActive="false" visibilityInactive="false"/>
+                <objectChange node="engineConfig_decal_290" visibilityActive="false" visibilityInactive="false"/>
+                <objectChange node="engineConfig_decal_330" visibilityActive="false" visibilityInactive="false"/>
             </motorConfiguration>
         </motorConfigurations>
 
@@ -1848,6 +1853,7 @@
         <i3dMapping id="turnLightRightBack1" node="0>0|7|5|0|0|3" />
         <i3dMapping id="cabinDecal02" node="0>0|7|5|0|1|0" />
         <i3dMapping id="dashboardDisplayGPS" node="0>0|7|5|0|1|1" />
+        <i3dMapping id="numbersSpeed03" node="0>0|7|5|0|1|2" />
         <i3dMapping id="cabinConfig_us" node="0>0|7|5|1" />
         <i3dMapping id="workingLight16_09" node="0>0|7|5|1|0|0|0" />
         <i3dMapping id="workingLight16_10" node="0>0|7|5|1|0|0|1" />
@@ -1870,8 +1876,7 @@
         <i3dMapping id="arrowRightDecal" node="0>0|7|6|9" />
         <i3dMapping id="numbersSpeed01" node="0>0|7|6|10|0" />
         <i3dMapping id="numbersSpeed02" node="0>0|7|6|10|1" />
-        <i3dMapping id="numbersSpeed03" node="0>0|7|6|10|2" />
-        <i3dMapping id="numbersRpm" node="0>0|7|6|10|3" />
+        <i3dMapping id="numbersRpm" node="0>0|7|6|10|2" />
         <i3dMapping id="leverTurnlight" node="0>0|7|6|11|0" />
         <i3dMapping id="pedalGas" node="0>0|7|7|0" />
         <i3dMapping id="playerRightFootTargetGasRef" node="0>0|7|7|0|0" />

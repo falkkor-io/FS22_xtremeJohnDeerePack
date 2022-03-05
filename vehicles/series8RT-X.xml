@@ -19,11 +19,12 @@
         <category>tractorsL</category>
         <shopTranslationOffset>0 0 0</shopTranslationOffset>
         <shopRotationOffset>-0.583 0 0</shopRotationOffset>
-        <vertexBufferMemoryUsage>6084884</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>1036782</indexBufferMemoryUsage>
-        <textureMemoryUsage>5835568</textureMemoryUsage>
+        <vertexBufferMemoryUsage>6098688</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>1058304</indexBufferMemoryUsage>
+        <textureMemoryUsage>6619136</textureMemoryUsage>
         <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
         <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <audioMemoryUsage>463231</audioMemoryUsage>
     </storeData>
 
     <base>
@@ -106,19 +107,19 @@
             <wheelConfiguration name="$l10n_configuration_valueDefault" price="0" saveId="DEFAULT_CRAWLER_EU">
                 <wheels autoRotateBackSpeed="4.0" speedDependentRotateBack="false">
                     <wheel hasTireTracks="true" hasParticles="true">
-                        <physics rotSpeed="1" restLoad="3.7" repr="backWheelLeftAxis"  driveNode="backWheelLeft"  showSteeringAngle="false" forcePointRatio="0.3" radius="0.85" width="0.75" mass="0.5" initialCompression="25" suspTravel="0.12" spring="108" damper="70" frictionScale="2.5" tireType="crawler" maxWheelSink="0.125"/>
+                        <physics rotSpeed="1" restLoad="3.7" repr="backWheelLeftAxis"  driveNode="backWheelLeft"  showSteeringAngle="false" forcePointRatio="0.3" radius="0.85" width="0.75" mass="0.5" initialCompression="25" suspTravel="0.12" spring="108" damper="70" frictionScale="2.5" tireType="crawler" supportsWheelSink="false"/>
                         <tire tireTrackAtlasIndex="6" isCareWheel="false" />
                     </wheel>
                     <wheel hasTireTracks="true" hasParticles="true">
-                        <physics rotSpeed="1" restLoad="3.7" repr="backWheelRightAxis" driveNode="backWheelRight" showSteeringAngle="false" forcePointRatio="0.3" radius="0.85" width="0.75" mass="0.5" initialCompression="25" suspTravel="0.12" spring="108" damper="70" frictionScale="2.5" tireType="crawler" maxWheelSink="0.125"/>
+                        <physics rotSpeed="1" restLoad="3.7" repr="backWheelRightAxis" driveNode="backWheelRight" showSteeringAngle="false" forcePointRatio="0.3" radius="0.85" width="0.75" mass="0.5" initialCompression="25" suspTravel="0.12" spring="108" damper="70" frictionScale="2.5" tireType="crawler" supportsWheelSink="false"/>
                         <tire tireTrackAtlasIndex="6" isCareWheel="false" />
                     </wheel>
                     <wheel>
-                        <physics rotSpeed="1" restLoad="4.4" repr="frontWheelLeft"  driveNode="frontWheelLeftDriveNode"  forcePointRatio="0.3" radius="0.582" width="0.75" mass="0.5" showSteeringAngle="false" initialCompression="40" suspTravel="0.12" spring="80" damper="70" frictionScale="2.5" tireType="crawler" maxWheelSink="0.125" transRatio="1"/>
+                        <physics rotSpeed="1" restLoad="4.4" repr="frontWheelLeft"  driveNode="frontWheelLeftDriveNode"  forcePointRatio="0.3" radius="0.582" width="0.75" mass="0.5" showSteeringAngle="false" initialCompression="40" suspTravel="0.12" spring="80" damper="70" frictionScale="2.5" tireType="crawler" supportsWheelSink="false" transRatio="1"/>
                         <tire isCareWheel="false" />
                     </wheel>
                     <wheel>
-                        <physics rotSpeed="1" restLoad="4.4" repr="frontWheelRight" driveNode="frontWheelRightDriveNode" forcePointRatio="0.3" radius="0.582" width="0.75" mass="0.5" showSteeringAngle="false" initialCompression="40" suspTravel="0.12" spring="80" damper="70" frictionScale="2.5" tireType="crawler" maxWheelSink="0.125" transRatio="1"/>
+                        <physics rotSpeed="1" restLoad="4.4" repr="frontWheelRight" driveNode="frontWheelRightDriveNode" forcePointRatio="0.3" radius="0.582" width="0.75" mass="0.5" showSteeringAngle="false" initialCompression="40" suspTravel="0.12" spring="80" damper="70" frictionScale="2.5" tireType="crawler" supportsWheelSink="false" transRatio="1"/>
                         <tire isCareWheel="false" />
                     </wheel>
                 </wheels>
@@ -137,19 +138,19 @@
             <wheelConfiguration name="3m" price="0" saveId="DEFAULT_CRAWLER_US">
                 <wheels autoRotateBackSpeed="4.0" speedDependentRotateBack="false">
                     <wheel hasTireTracks="true" hasParticles="true">
-                        <physics rotSpeed="1" restLoad="3.7" repr="backWheelLeftAxis"  driveNode="backWheelLeft"  showSteeringAngle="false" forcePointRatio="0.5" radius="0.85" width="0.5" mass="0.5" initialCompression="25" suspTravel="0.12" spring="108" damper="70" frictionScale="2.5" tireType="crawler" maxWheelSink="0.125"/>
+                        <physics rotSpeed="1" restLoad="3.7" repr="backWheelLeftAxis"  driveNode="backWheelLeft"  showSteeringAngle="false" forcePointRatio="0.5" radius="0.85" width="0.5" mass="0.5" initialCompression="25" suspTravel="0.12" spring="108" damper="70" frictionScale="2.5" tireType="crawler" supportsWheelSink="false"/>
                         <tire tireTrackAtlasIndex="6" isCareWheel="false" />
                     </wheel>
                     <wheel hasTireTracks="true" hasParticles="true">
-                        <physics rotSpeed="1" restLoad="3.7" repr="backWheelRightAxis" driveNode="backWheelRight" showSteeringAngle="false" forcePointRatio="0.5" radius="0.85" width="0.5" mass="0.5" initialCompression="25" suspTravel="0.12" spring="108" damper="70" frictionScale="2.5" tireType="crawler" maxWheelSink="0.125"/>
+                        <physics rotSpeed="1" restLoad="3.7" repr="backWheelRightAxis" driveNode="backWheelRight" showSteeringAngle="false" forcePointRatio="0.5" radius="0.85" width="0.5" mass="0.5" initialCompression="25" suspTravel="0.12" spring="108" damper="70" frictionScale="2.5" tireType="crawler" supportsWheelSink="false"/>
                         <tire tireTrackAtlasIndex="6" isCareWheel="false" />
                     </wheel>
                     <wheel>
-                        <physics rotSpeed="1" restLoad="4.4" repr="frontWheelLeft"  driveNode="frontWheelLeftDriveNode"  forcePointRatio="0.5" radius="0.582" width="0.5" mass="0.5" showSteeringAngle="false" initialCompression="40" suspTravel="0.12" spring="80" damper="70" frictionScale="2.5" tireType="crawler" maxWheelSink="0.125" transRatio="1"/>
+                        <physics rotSpeed="1" restLoad="4.4" repr="frontWheelLeft"  driveNode="frontWheelLeftDriveNode"  forcePointRatio="0.5" radius="0.582" width="0.5" mass="0.5" showSteeringAngle="false" initialCompression="40" suspTravel="0.12" spring="80" damper="70" frictionScale="2.5" tireType="crawler" supportsWheelSink="false" transRatio="1"/>
                         <tire isCareWheel="false" />
                     </wheel>
                     <wheel>
-                        <physics rotSpeed="1" restLoad="4.4" repr="frontWheelRight" driveNode="frontWheelRightDriveNode" forcePointRatio="0.5" radius="0.582" width="0.5" mass="0.5" showSteeringAngle="false" initialCompression="40" suspTravel="0.12" spring="80" damper="70" frictionScale="2.5" tireType="crawler" maxWheelSink="0.125" transRatio="1"/>
+                        <physics rotSpeed="1" restLoad="4.4" repr="frontWheelRight" driveNode="frontWheelRightDriveNode" forcePointRatio="0.5" radius="0.582" width="0.5" mass="0.5" showSteeringAngle="false" initialCompression="40" suspTravel="0.12" spring="80" damper="70" frictionScale="2.5" tireType="crawler" supportsWheelSink="false" transRatio="1"/>
                         <tire isCareWheel="false" />
                     </wheel>
                 </wheels>
@@ -487,9 +488,11 @@
                 </motor>
                 <transmission minForwardGearRatio="9.3" maxForwardGearRatio="325" minBackwardGearRatio="37" maxBackwardGearRatio="325" name="$l10n_info_transmission_cvt"/>
                 <objectChange node="engineConfig8RT410_decal" visibilityActive="true" visibilityInactive="false"/>
+                <objectChange node="engineConfig8RT310_decal" visibilityActive="false" visibilityInactive="false"/>
+                <objectChange node="engineConfig8RT340_decal" visibilityActive="false" visibilityInactive="false"/>
+                <objectChange node="engineConfig8RT370_decal" visibilityActive="false" visibilityInactive="false"/>
             </motorConfiguration>
         </motorConfigurations>
-
         <exhaustEffects>
             <exhaustEffect node="exhaustParticle1" filename="$data/effects/exhaust/exhaust.i3d" minRpmColor="0.9 0.9 0.9 0.1" maxRpmColor="0.9 0.9 0.9 0.4" minRpmScale="0.05" maxRpmScale="0.5" />
             <exhaustEffect node="exhaustParticle2" filename="$data/effects/exhaust/exhaust.i3d" minRpmColor="0.9 0.9 0.9 0.1" maxRpmColor="0.9 0.9 0.9 0.4" minRpmScale="0.05" maxRpmScale="0.5" />

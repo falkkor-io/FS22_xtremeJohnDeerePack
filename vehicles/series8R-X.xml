@@ -19,11 +19,12 @@
         <category>tractorsL</category>
         <shopTranslationOffset>0 0.018 0</shopTranslationOffset>
         <shopRotationOffset>0.249 0 0</shopRotationOffset>
-        <vertexBufferMemoryUsage>7442896</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>1290042</indexBufferMemoryUsage>
-        <textureMemoryUsage>5660864</textureMemoryUsage>
+        <vertexBufferMemoryUsage>7470848</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>1325568</indexBufferMemoryUsage>
+        <textureMemoryUsage>6291456</textureMemoryUsage>
         <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
         <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <audioMemoryUsage>463231</audioMemoryUsage>
     </storeData>
 
     <base>
@@ -1098,6 +1099,11 @@
                 </motor>
                 <transmission minForwardGearRatio="9.3" maxForwardGearRatio="325" minBackwardGearRatio="32" maxBackwardGearRatio="325" name="$l10n_info_transmission_cvt"/>
                 <objectChange node="engineConfigDecal_410" visibilityActive="true" visibilityInactive="false"/>
+                <objectChange node="engineConfigDecal_280" visibilityActive="false" visibilityInactive="false"/>
+                <objectChange node="engineConfigDecal_310" visibilityActive="false" visibilityInactive="false"/>
+                <objectChange node="engineConfigDecal_340" visibilityActive="false" visibilityInactive="false"/>
+                <objectChange node="engineConfigDecal_370" visibilityActive="false" visibilityInactive="false"/>
+                <objectChange node="engineConfigDecal_280" visibilityActive="false" visibilityInactive="false"/>
             </motorConfiguration>
         </motorConfigurations>
 

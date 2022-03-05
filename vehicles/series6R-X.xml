@@ -24,11 +24,12 @@
         <category>tractorsM</category>
         <shopTranslationOffset>0 -0.04 0</shopTranslationOffset>
         <shopRotationOffset>-0.075 0 0</shopRotationOffset>
-        <vertexBufferMemoryUsage>6224552</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>1641396</indexBufferMemoryUsage>
-        <textureMemoryUsage>7231032</textureMemoryUsage>
+        <vertexBufferMemoryUsage>6240512</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>1661184</indexBufferMemoryUsage>
+        <textureMemoryUsage>7864320</textureMemoryUsage>
         <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
         <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <audioMemoryUsage>519836</audioMemoryUsage>
     </storeData>
 
     <base>
@@ -1115,7 +1116,7 @@
                     <torque normRpm="1" torque="0.72"/>
                 </motor>
                 <transmission minForwardGearRatio="9.25" maxForwardGearRatio="300" minBackwardGearRatio="32" maxBackwardGearRatio="300" name="$l10n_info_transmission_cvt"/>
-                <objectChange node="config_6230R" visibilityActive="false" visibilityInactive="true"/>
+                <objectChange node="config_6230R" visibilityActive="false" visibilityInactive="false"/>
                 <objectChange node="config_6250R" visibilityActive="true" visibilityInactive="false"/>
             </motorConfiguration>
         </motorConfigurations>

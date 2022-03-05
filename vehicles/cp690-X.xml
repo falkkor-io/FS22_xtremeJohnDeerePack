@@ -21,11 +21,12 @@
         <shopTranslationOffset>0 -0.049 0</shopTranslationOffset>
         <shopRotationOffset>-0.031 0 0</shopRotationOffset>
         <shopFoldingState>1</shopFoldingState>
-        <vertexBufferMemoryUsage>6019400</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>967434</indexBufferMemoryUsage>
-        <textureMemoryUsage>4631688</textureMemoryUsage>
+        <vertexBufferMemoryUsage>6034176</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>985600</indexBufferMemoryUsage>
+        <textureMemoryUsage>5242880</textureMemoryUsage>
         <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
         <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <audioMemoryUsage>343153</audioMemoryUsage>
     </storeData>
 
     <base>
@@ -746,10 +747,11 @@
             <dashboard displayType="EMITTER" node="joystickDecalsLit" idleValue="-0.1" intensity="0.2" groups="MOTOR_ACTIVE" />
             <dashboard displayType="EMITTER" node="interiorDecalsLit" idleValue="-0.1" intensity="0.2" groups="MOTOR_ACTIVE" />
             <dashboard displayType="EMITTER" node="interiorDecalsLit02" idleValue="0" intensity="0.2" groups="MOTOR_ACTIVE" />
-            <dashboard displayType="EMITTER" node="startingDecals" idleValue="-0.1" intensity="0.2" groups="MOTOR_STARTING" />
+            <dashboard displayType="VISIBILITY" node="startingDecals" idleValue="-0.1" intensity="0.2" groups="MOTOR_STARTING" />
             <dashboard displayType="EMITTER" node="display01Lit" idleValue="-1" intensity="0.2" groups="MOTOR_ACTIVE" />
             <dashboard displayType="EMITTER" node="display02Lit" idleValue="-1" intensity="0.2" groups="MOTOR_ACTIVE" />
 
+            <dashboard displayType="VISIBILITY" node="dorDecal" groups="MOTOR_ACTIVE" />
             <dashboard displayType="VISIBILITY" node="dashboardDisplays" groups="MOTOR_ACTIVE" />
             <dashboard displayType="EMITTER" node="dashboardDisplaysOff" idleValue="-1" intensity="-1" groups="MOTOR_ACTIVE" />
         </default>
@@ -845,6 +847,7 @@
         <i3dMapping id="defLoadingBar" node="0>0|4|4|2|2" />
         <i3dMapping id="turnLeftDecal" node="0>0|4|4|3" />
         <i3dMapping id="turnRightDecal" node="0>0|4|4|4" />
+        <i3dMapping id="dorDecal" node="0>0|4|4|5" />
         <i3dMapping id="ignitionKey" node="0>0|4|4|6|0" />
         <i3dMapping id="playerRightFootTarget" node="0>0|4|6|0" />
         <i3dMapping id="playerLeftFootTarget" node="0>0|4|6|1" />

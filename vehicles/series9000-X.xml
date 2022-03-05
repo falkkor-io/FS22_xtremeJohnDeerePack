@@ -5,7 +5,7 @@
     <storeData>
         <name>9000-X</name>
         <specs>
-            <power>900</power>
+            <power>925</power>
             <maxSpeed>75</maxSpeed>
             <combination xmlFilename="$data/vehicles/kemper/plus345/plus345_johnDeere.xml"/>
             <combination xmlFilename="$data/vehicles/kemper/plus360/plus360_johnDeere.xml"/>
@@ -13,24 +13,26 @@
             <combination xmlFilename="$data/vehicles/kemper/plus390/plus390_johnDeere.xml"/>
             <combination xmlFilename="$data/vehicles/kemper/comfortSupportWheel/comfortSupportWheel.xml"/>
             <combination xmlFilename="$data/vehicles/johnDeere/header639/header639.xml"/>
+            <combination xmlFilename="$data/objects/pallets/bonsilage/bonsilagePallet.xml"/>
         </specs>
         <functions>
             <function>$l10n_function_combineForage</function>
             <function>$l10n_function_combineNeedsForageCutter</function>
         </functions>
         <image>$data/vehicles/johnDeere/series9000/store_series9000.png</image>
-        <price>475000</price>
+        <price>500000</price>
         <lifetime>1200</lifetime>
         <rotation>0</rotation>
         <brand>JOHNDEERE</brand>
         <category>forageHarvesters</category>
         <shopTranslationOffset>0 0.102 0</shopTranslationOffset>
         <shopRotationOffset>-1.458 0 0</shopRotationOffset>
-        <vertexBufferMemoryUsage>9630428</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>2110482</indexBufferMemoryUsage>
-        <textureMemoryUsage>5876712</textureMemoryUsage>
+        <vertexBufferMemoryUsage>9645824</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>2131968</indexBufferMemoryUsage>
+        <textureMemoryUsage>6684672</textureMemoryUsage>
         <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
         <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <audioMemoryUsage>407438</audioMemoryUsage>
     </storeData>
 
     <base>
@@ -228,7 +230,7 @@
         <exitPoint node="exitPoint" />
 
         <cameras>
-            <camera node="outdoorCamera1" rotatable="true" rotateNode="outdoorCameraTarget" limit="true" useWorldXZRotation="true" rotMinX="-1.4" rotMaxX="1" transMin="5" transMax="40" translation="0 0 7.8" rotation="-25.5 180 0">
+            <camera node="outdoorCamera1" rotatable="true" rotateNode="outdoorCameraTarget" limit="true" useWorldXZRotation="true" rotMinX="-1.4" rotMaxX="1" transMin="6.75" transMax="40" translation="0 0 9" rotation="-25.5 180 0">
                 <raycastNode node="cameraRaycastNode1"/>
                 <raycastNode node="cameraRaycastNode2"/>
                 <raycastNode node="cameraRaycastNode3"/>
@@ -350,8 +352,8 @@
 
     <attacherJoints>
         <attacherJoint jointType="cutterHarvester" node="attacherJointFront" jointPositionOffset="0 0 -1.054" lowerTransLimit="0 0 0" lowerRotLimit="0 0 25" lockDownRotLimit="true" moveTime="2.5" comboTime="0">
-            <distanceToGround lower="1.59" upper="1.99" />
-            <rotationNode node="attacherJointFrontRot" lowerRotation="-10 0 0" upperRotation="-45 0 0" />
+            <distanceToGround lower="1.29" upper="2.02" />
+            <rotationNode node="attacherJointFrontRot" lowerRotation="0 0 0" upperRotation="-45 0 0" />
             <bottomArm rotationNode="feeder" referenceNode="attacherJointFront"/>
             <schema position="1 0" rotation="0" invertX="true" />
         </attacherJoint>
@@ -400,8 +402,8 @@
         </differentialConfigurations>
 
         <motorConfigurations>
-            <motorConfiguration name="9900-X" hp="900" price="0">
-                <motor torqueScale="3.845" minRpm="850" maxRpm="1860" accelerationLimit="4" maxForwardSpeed="75" maxBackwardSpeed="14.9" brakeForce="12" lowBrakeForceScale="0.22" ptoMotorRpmRatio="2.97" dampingRateScale="8" >
+            <motorConfiguration name="9900-X" hp="925" price="0">
+                <motor torqueScale="3.902" minRpm="850" maxRpm="1860" accelerationLimit="4" maxForwardSpeed="75" maxBackwardSpeed="14.9" brakeForce="12" lowBrakeForceScale="0.22" ptoMotorRpmRatio="2.97" dampingRateScale="8" >
                     <torque normRpm="0.45" torque="0.8"/>
                     <torque normRpm="0.5" torque="0.87"/>
                     <torque normRpm="0.59" torque="0.9"/>
@@ -770,6 +772,7 @@
                 <effectNode                          effectNode="pipeEffectS_02"  delay="0.1"  materialType="unloading" fadeScale="0"/>
                 <effectNode effectClass="PipeEffect" effectNode="pipeEffectS_01"  delay="0.12" materialType="pipe"      maxBending="0.15" shapeScaleSpread="1.03 0.96 1 0"/>
             </effects>
+            <dischargeSound template="dischargeForageHarvester" volumeScale="1.4" linkNode="attacherJointFront"/>
         </dischargeNode>
         <dischargeNode node="pipeRaycastNodeM" emptySpeed="1000" fillUnitIndex="1" maxDistance="20" stopDischargeOnEmpty="false" effectTurnOffThreshold="0.5">
             <info width="0.4" length="0.4" useRaycastHitPosition="true"/>
@@ -789,9 +792,10 @@
                 <effectNode                          effectNode="pipeEffectL_02"  delay="0.1"  materialType="unloading" fadeScale="0"/>
                 <effectNode effectClass="PipeEffect" effectNode="pipeEffectL_01"  delay="0.12" materialType="pipe"      maxBending="0.15" shapeScaleSpread="1.03 0.96 1 0"/>
             </effects>
+            <dischargeSound template="dischargeForageHarvester" volumeScale="1.4" linkNode="attacherJointFront"/>
         </dischargeNode>
     </dischargeable>
-
+ 
     <combine allowThreshingDuringRain="true" fillUnitIndex="1">
         <additives fillUnitIndex="4" usage="0.0000275" fillTypes="CHAFF GRASS_WINDROW" />
         <buffer loadingDelay="1.0" unloadingDelay="3.0"/>
