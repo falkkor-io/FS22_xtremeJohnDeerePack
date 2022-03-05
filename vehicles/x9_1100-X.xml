@@ -839,7 +839,7 @@
     <dischargeable>
         <dischargeableConfigurations title="$l10n_configuration_pipe">
             <dischargeableConfiguration name="$l10n_configuration_valueDesign01">
-                <dischargeNode node="dischargeNode_eu" emptySpeed="476" fillUnitIndex="1" maxDistance="8">
+                <dischargeNode node="dischargeNode_eu" emptySpeed="4096" fillUnitIndex="1" maxDistance="8">
                     <raycast yOffset="1"/>
                     <info width="0.4" length="0.4" useRaycastHitPosition="true"/>
 
@@ -852,7 +852,7 @@
                 <objectChange node="config_cables_eu" visibilityActive="true" visibilityInactive="false"/>
             </dischargeableConfiguration>
             <dischargeableConfiguration name="$l10n_configuration_valueDesign02">
-                <dischargeNode node="dischargeNode_us" emptySpeed="476" fillUnitIndex="1" maxDistance="8">
+                <dischargeNode node="dischargeNode_us" emptySpeed="4096" fillUnitIndex="1" maxDistance="8">
                     <raycast yOffset="1"/>
                     <info width="0.4" length="0.4" useRaycastHitPosition="true"/>
 
